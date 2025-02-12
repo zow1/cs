@@ -28,7 +28,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install selenium requests futures eventlet pytz 
+        run: pip install selenium requests futures eventlet pytz flask
 
       - name: Install FFmpeg
         run: |
